@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#user{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 220px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#user #userImage{
+    border-radius: 50%;
+}
+
+#user img{
+    width: 40%;
+}
+
+#user img,
+#user h1,
+#user h2,
+#user h4,
+#user p{
+    margin: 3px;
+}
+
+p > span{
+    color: rgb(0, 255, 255);
+}
+
+@media (max-width: 690px){
+    
+    #user{
+        margin-bottom: 10px;
+    }
+}
+

@@ -1,0 +1,53 @@
+#userInfo{
+    height: 300px;
+    width: 600px;
+    height: 220px;
+    margin: 20px;
+    margin-top: 50px;
+
+}
+
+#userInfo h1,
+#userInfo h4,
+#userInfo .habilities{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#userInfo h4{
+    color: gray;
+}
+
+.habilities{
+    height: 10px;
+}
+
+.habilities > ul{
+    display: flex;
+    flex-flow: row wrap;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.habilities > ul li{
+    background-color: #ccc;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+}
+
+h3{
+    font-size: 10px;
+}
+
+@media (max-width: 690px){
+    
+    #userInfo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+}
