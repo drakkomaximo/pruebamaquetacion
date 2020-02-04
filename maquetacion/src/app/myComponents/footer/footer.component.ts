@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   public userDate:any
+  public userDateResponsive:any
 
   constructor() { 
     this.userDate = "Martes, 11 de septiembre"
+    this.userDateResponsive = "Mar, 11 de sep"
   }
   
 
